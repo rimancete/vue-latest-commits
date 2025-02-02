@@ -3,7 +3,7 @@
 Display latest vue core commits.
 
 ## Web Perspective
-
+![nav](./docs/nav.gif)
 
 ## Project Setup
 
