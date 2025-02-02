@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import CommitList from './components/CommitList.vue'
+import Home from './screens/Home/Home.vue'
 </script>
 
 <template>
   <main>
-    <CommitList />
+    <Home />
   </main>
 </template>

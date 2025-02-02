@@ -23,7 +23,7 @@ function formatDate(v) {
 }
 </script>
 
-<template>
+<template class="commits-container">
     <Title msg="Latest Vue Core Commits" />
     <template v-for="branch in branches">
       <input type="radio"
@@ -47,6 +47,9 @@ function formatDate(v) {
 </template>
 
 <style>
+.commits-container {
+  width: 100%;
+}
 a {
   text-decoration: none;
   color: #42b883;
